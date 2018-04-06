@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my portfolio </title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	
+	<style>
+		section{
+			width: 100vw;
+			height: 90vh;
+			padding:50px;
+		}
+		.wh{
+		color:white;
+		}
+		img{
+			transition:.5s ease-in-out;
+		}
+		img:hover{
+			opacity: .5;
+		
+		}
+		.n li{
+			display:inline-block;
+		
+		}
+		.n ul{
+			padding-left:30px;
+		
+    }
+	.n a:hover{
+	
+	font-size:18px;
+	text-decoration:none;
+	}
+	
+	
+
+		
+	</style>
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+	<div class="bg-light">
+
+	<nav class="nav navbar-inverse navbar-fixed-top">
+		
+		<ul class="n nav navbar nav" >
+			<li class="font-weight-bold"> <a href="#home">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+			<li> <a href="#work" class="font-weight-bold">Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+			<li  class="font-weight-bold"> <a href="#contact">Contact Me</a></li><hr>
+		</ul>
+
+
+	</nav>
+	</div>
+	<section id="home" style="background:url(h.jpg);"	class="text-center wh">
+	
+	<h1>My Portfolio</h1>
+	<p class="lead">Let just read myself and contact me </p>
+	</section>
+	<section id="work">
+		<div class="page-header text-center" >
+			<h1>My Work</h1>
+		</div>
+		<div class="center-block">
+			<img src="1.jpg"/>
+			<img src="2.jpg"/>
+			<img src="3.jpg"/>
+			<img src="8.jpg"/><hr>
+			<img src="5.jpg"/>
+			<img src="6.jpg"/>
+			<img src="7.jpg"/>
+			<img src="4.jpg"/>
+		
+		</div>
+	
+	</section>
+	<section id="contact" style="padding:10px; background:#e6e6e6;">
+		<div class=" text-center">
+			<h1>Contact Me</h1>
+		<hr/>
+		</div>
+		
+		<div class="container">
+		
+		<form class="col-md-6 center-block">
+			<div class="form-group">
+			<input type="text" class="form-control input-lg" placeholder="Insert Your Name"/>
+			</div>
+				<div class="form-group">
+			<input type="text" class="form-control input-lg" placeholder="Email Address"/>
+			</div>
+			<div class="form-group">
+			<input type="text" class="form-control input-lg" placeholder="Subject"/>
+			</div>
+			<div>
+						<textarea style="color:gray; font-size:55px;" placeholder="Message"></textarea>
+			
+			</div>
+			<div class="form-group">
+				<button class="form-control btn btn-danger btn-block" style="cursor:pointer;">Submit Your Comment</button>
+			</div>
+		
+		</form>
+		
+		</div>
+		
+		
+		
+	
+	
+	</section>
+	
+	
+
+
+</body>
+
+
+
+</html>
